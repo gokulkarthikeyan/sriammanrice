@@ -768,7 +768,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('public/images/service.avif');
+    background-image: url('/images/service.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -807,7 +807,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('public/images/contact.png');
+    background-image: url('/images/contact.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -943,7 +943,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('public/images/vint1.avif');
+    background-image: url('/images/vint1.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -955,7 +955,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('public/images/vint2.jpg');
+    background-image: url('/images/vint2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1697,7 +1697,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('public/images/CROP.jpg');
+    background-image: url('/images/CROP.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1834,7 +1834,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('public/images/trans.jpg');
+    background-image: url('/images/trans.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
