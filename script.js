@@ -397,29 +397,29 @@ let currentProcessGallery = null;
 let currentProcessIndex = 0;
 const processGalleries = {
     harvesting: [
-        'public/images/CROP.jpg',
-        'public/images/paddy.jpg',
-        'public/images/Rice.jpg'
+        '/images/CROP.jpg',
+        '/images/paddy.jpg',
+        '/images/Rice.jpg'
     ],
     transportation: [
-        'public/images/trans.jpg',
-        'public/images/trans2.jpg'
+        '/images/trans.jpg',
+        '/images/trans2.jpg'
     ],
     processing: [
-        'public/images/proc1.jpg',
-        'public/images/proc2.jpg',
-        'public/images/proc3.jpg',
-        'public/images/proc4.jpg'
+        '/images/proc1.jpg',
+        '/images/proc2.jpg',
+        '/images/proc3.jpg',
+        '/images/proc4.jpg'
     ],
     packaging: [
-        'public/images/packing.jpg',
-        'public/images/hygimg.jpg'
+        '/images/packing.jpg',
+        '/images/hygimg.jpg'
     ],
     sorting: [
-        'public/images/sorting.webp'
+        '/images/sorting.webp'
     ],
     supply: [
-        'public/images/delivery.jpg'
+        '/images/delivery.jpg'
     ]
 };
 
