@@ -768,7 +768,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('/images/service.avif');
+    background-image: url('public/images/service.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -807,7 +807,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('/images/contact.png');
+    background-image: url('public/images/contact.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -943,7 +943,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('/images/vint1.avif');
+    background-image: url('public/images/vint1.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -955,7 +955,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('/images/vint2.jpg');
+    background-image: url('public/images/vint2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1562,136 +1562,6 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
-.products-section {
-    background: linear-gradient(180deg, white, #f0fdfa);
-}
-
-.product-slogan {
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.product-slogan p {
-    font-size: 2rem;
-    font-weight: 700;
-    font-style: italic;
-    background: linear-gradient(135deg, var(--primary-800), var(--primary-700));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.products-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    margin-bottom: 4rem;
-}
-
-.product-card {
-    /* consistent soft background for rice varieties boxes (no orange accents) */
-    background: linear-gradient(135deg, #fffaf0, #f7fff4);
-    padding: 1.5rem;
-    border-radius: 0.75rem;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    border: 1px solid var(--dark-green-100);
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-.product-card:hover {
-    transform: translateY(-10px) rotate(2deg) scale(1.05);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-}
-
-/* Gentle accents for alternating product cards (reduced opacity for subtler look) */
-/* Removed alternating color accents — all product cards now share the same background above */
-
-.product-icon {
-    width: 3rem;
-    height: 3rem;
-    background: linear-gradient(135deg, var(--products-color), #14b8a6);
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    flex-shrink: 0;
-    transition: transform 0.6s ease;
-}
-
-.product-card:hover .product-icon {
-    transform: rotate(360deg) scale(1.1);
-}
-
-.product-card:hover .product-icon {
-    transform: scale(1.1);
-}
-
-.product-info {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-}
-
-.product-info h3 {
-    font-family: 'Cinzel', 'Playfair Display', serif;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.2);
-    letter-spacing: 0.5px;
-}
-
-.product-card h3 {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #1f2937;
-    margin-bottom: 0.25rem;
-    transition: all 0.3s ease;
-}
-
-.product-card p {
-    color: #4b5563;
-    transition: all 0.3s ease;
-}
-
-.product-card:hover h3,
-.product-card:hover p {
-    color: var(--products-color);
-}
-
-
-.product-hover-image {
-    position: absolute;
-    top: 0.75rem;
-    right: 0.75rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transform: translateY(-5px);
-    transition: all 0.3s ease;
-    z-index: 2;
-    pointer-events: none;
-}
-
-.product-hover-image img {
-    display: none;
-}
-
-.product-hover-price {
-    display: none;
-    border-radius: 999px;
-    border: 2px solid rgba(255, 255, 255, 0.6);
-    animation: pulse 2s infinite;
-}
-
-.product-card:hover .product-hover-image {
-    opacity: 1;
-    transform: translateY(0);
-}
 
 .packaging-section {
     background: white;
@@ -1956,7 +1826,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('/images/CROP.jpg');
+    background-image: url('public/images/CROP.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2093,7 +1963,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('/images/trans.jpg');
+    background-image: url('public/images/trans.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2452,6 +2322,10 @@ body {
 }
 
 @media (min-width: 640px) {
+    .brand-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .products-grid {
         grid-template-columns: repeat(2, 1fr);
     }
